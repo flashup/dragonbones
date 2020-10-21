@@ -266,7 +266,7 @@ import dragonBones.textures.TextureData;
 		
 		if (displayIndex >= 0) 
 		{
-			var displayList:Vector<Dynamic> = slot.displayList; // Copy.
+			var displayList:Vector<Object> = slot.displayList; // Copy.
 			if (displayList.length <= displayIndex) 
 			{
 				displayList.length = displayIndex + 1;
